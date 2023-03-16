@@ -1,0 +1,30 @@
+.our-speciality {
+  padding: 94px 0 0 0;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+.our-speciality-header {
+  font-weight: 700;
+  color: var(--notblack);
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  line-height: 1.145;
+}
+.our-speciality-text {
+  line-height: 0.03em;
+  line-height: 1.71;
+  margin: 0;
+}
+.speciality-icon {
+  background-color: var(--notwhite);
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
