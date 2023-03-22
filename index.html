@@ -22,8 +22,18 @@
     <div class="wrapper">
       <header class="header container">
         <a href="index.html" class="link-no-underline logo-style"
-          ><span class="blue-text">Web</span>Studio</a
+          ><span class="blue-text">Web</span>Studio</a>
+          <button class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
         >
+          <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          > </svg></button>
         <nav>
           <ul class="nav-style nav-list">
             <li>
@@ -635,8 +645,10 @@
     </div>
   </div>
 
-      
-      
-    <script src="./js/modal.js"></script>      
+    <script src="./js/modal.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
