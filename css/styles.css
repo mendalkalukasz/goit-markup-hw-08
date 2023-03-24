@@ -149,7 +149,7 @@ body {
   margin-right: 10px;
 }
 
-.mobile-menu__container {
+/* .mobile-menu__container {
   position: fixed;
   top: 0;
   left: 0;
@@ -175,7 +175,7 @@ body {
 }
 
 .mobile-menu__nav--link {
-  /* display: block; */
+  display: block;
   font-weight: 500;
   font-size: 40px;
   line-height: 1.18;
@@ -222,7 +222,7 @@ body {
   .mobile-menu__contacts--link-mail {
     font-size: 20px;
   }
-}
+} */
 
 .top-section {
   background-image: url(https://github.com/mendalkalukasz/goit-markup-hw-04/blob/main/images/background.jpg?raw=true);
