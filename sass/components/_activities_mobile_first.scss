@@ -1,0 +1,109 @@
+@media only screen and (max-width:1200px) {
+  .activities {
+    display: none;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .activities {
+    padding-bottom: 94px;
+  }
+
+  .activities__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.30;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+  }
+
+  .activities__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 15px;
+  }
+
+  .activities__item {
+    position: relative;
+    width: 370px;
+    height: 294px;
+    background-size: 370px 294px;
+    background-color: $activitiesBoxBackground;
+
+  }
+
+  .activities__item--first-image {
+    background-image: url(../images/programer-working-his-desk-office_370-294.jpg);
+  }
+
+  @media screen and(min-device-pixel-ratio:2),
+  screen and (min-resolution:192dpi),
+  screen and (min-resolution: 2dppx) {
+    .activities__item--first-image {
+      background-image: url(../images/programer-working-his-desk-office_740-588.jpg);
+    }
+  }
+
+  .activities__item--second-image {
+    background-image: url(../images/team-creators-is-working-interface-mobile-phones_370x294.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio:2),
+  screen and (min-resolution:192dpi),
+  screen and (min-resolution: 2dppx) {
+    .activities__item--second-image {
+      background-image: url(../images/team-creators-is-working-interface-mobile-phones_740-588.jpg);
+    }
+  }
+
+  .activities__item--third-image {
+    background-image: url(../images/creative-artist-web-design-with-working-colour-selection-graphic-tablet_370-294.jpg);
+  }
+
+  @media screen and(min-device-pixel-ratio:2),
+  screen and (min-resolution:192dpi),
+  screen and (min-resolution: 2dppx) {
+    .activities__item--third-image {
+      background-image: url(../images/creative-artist-web-design-with-working-colour-selection-graphic-tablet_740-588.jpg);
+    }
+  }
+
+
+  .activities__label {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    bottom: 0px;
+    background-color: $activitiesLabelBackground;
+  }
+
+  .activities__desc {
+    position: absolute;
+    color: $activitiesDescText;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: center;
+    text-align: center;
+
+
+  }
+}

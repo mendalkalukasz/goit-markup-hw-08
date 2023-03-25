@@ -32,7 +32,25 @@ body {
 
 .container {
   width: 100%;
-  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+	@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 
@@ -84,16 +102,22 @@ body {
 .blue-text {
   color: var(--blue);
 }
-.nav-list {
+
+.nav {
   display: flex;
-  list-style: none;
-  line-height: 1.2;
-  margin: 0;
+  align-items: center;
+}
+
+.nav-list {
+  /*display: flex;*/
+  display:none;
+
 }
 .nav-style {
-  gap: 46px;
+  display:none;
+  /*gap: 46px;
   line-height: 1.2;
-  padding: 0;
+  padding: 0;*/
 }
 .contacts-style {
   gap: 50px;
@@ -259,7 +283,7 @@ body {
 }
 
 .our-speciality {
-  padding: 94px 0 0 0;
+  padding: 60px 0 0 0;
   display: flex;
   list-style: none;
   flex-direction: row;

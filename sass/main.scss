@@ -1,9 +1,54 @@
-@import './utils/variables';
+@import "utils/vars";
+@import "components/logo_mobile_first";
+@import "components/header-mobile_mobile_first";
+@import "components/menu_container_mobile";
+@import "components/portfolio_mobile_first";
+@import"components/footer_mobile_first";
+@import "components/slider_mobile_first";
+@import "components/attributes_mobile_first";
+@import "components/activities_mobile_first";
+@import "components/our_clients_mobile_first";
+@import "components/team_mobile_first";
+@import "components/modal_mobile_first";
+@import "components/order_mobile_first";
 
-@import './components/clients.scss';
-@import './components/container.scss';
-@import './components/footer.scss';
-@import './components/service.scss';
-@import './components/specialities.scss';
-@import './components/subscribe.scss';
-@import './components/team.scss';
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: $mainTextColor;
+}
+
+h2,
+h4,
+ul,
+p {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1200px) {
+  .section {
+    max-width: 1600px;
+  }
+}
+
+.container {
+  min-width: 320px;
+  max-width: 1200px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
