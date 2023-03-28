@@ -1249,6 +1249,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition-property: border, fill;
@@ -1395,6 +1396,7 @@
   height: 44px;
   border-radius: 50%;
   background-color: #fff;
+  fill: #afb1b8;
   transition-property: border-radius, background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
